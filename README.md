@@ -7,6 +7,9 @@ Hablo con el mundo mediante un [Adafruit HUZZAH ESP8266](http://tienda.bricogeek
 Puedes ver más información sobre éste proyecto aquí:
 [http://blog.bricogeek.com/noticias/arduino/matilda-the-plant-planta-conectada-con-esp8266-a-thingspeak/](http://blog.bricogeek.com/noticias/arduino/matilda-the-plant-planta-conectada-con-esp8266-a-thingspeak/)
 
+También puedes ver mis gráficas en ThingSpeak:
+[https://thingspeak.com/channels/305320](https://thingspeak.com/channels/305320)
+
 Componentes
 -----------
 Estos son los componentes que utilizo:
