@@ -23,7 +23,7 @@ Matilda The Code
 Si quieres más información o hacer lo mismo con otras compañeras de familia, puedes consultar mi código fuente en éste repositorio. 
 
 * [Instalación y configuración de Adafruit HUZZAH ESP8266](https://learn.adafruit.com/adafruit-feather-huzzah-esp8266)
-* [Arduino IDE] (https://www.arduino.cc/en/Main/Software) Usa la versión 1.8.3 o superior
+* [Arduino IDE] (https://www.arduino.cc/en/Main/Software). Necesitas la versión 1.8.3 o superior del IDE de Arduino.
 
 La conexión de los sensores es muy sencilla:
 
@@ -32,16 +32,17 @@ La conexión de los sensores es muy sencilla:
 * DHT11 Pin 3 -> No connectedado
 * DHT11 Pin 4 -> GND
    
-Sensor de humedad d la tierra:
+Sensor de humedad de la tierra:
 * Conectar VCC y GND. El pin de salida mediante una resistencia de 2.2K al pin 2 del ESP8266 y otra resistencia de 1K desde el pin 2 a GND.
 
 Matilda Wifi
 ----------------
-Ajusta los siguientes las variables "ssid" y "password" con los parámetro de tu conexión Wifi.
+Ajusta las variables **"ssid"** y **"password"** con los parámetro de tu conexión Wifi.
 
 Matilda ThingSpeak
 ------------------
 Debes disponer de una cuenta de usuario en [ThingSpeak](https://thingspeak.com) y crear un canal (channel). Una vez hecho, necesitas el *channelID* y *writeAPIKey* para poder enviar los datos al feed.
+Puedes ver mis gráficas [aquí](https://thingspeak.com/channels/305320)
 
 Cómo utilizar GitHub
 --------------------
@@ -54,4 +55,4 @@ License Information
 -------------------
 
 Released under the [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. 
-**You are welcome to use this library for commercial purposes.**
+**You are welcome to use this code for commercial purposes.**
